@@ -1,0 +1,71 @@
+2025-05-28 20:37:00,593 - INFO - Created folder: C:\Users\DC\Downloads\Images
+2025-05-28 20:37:00,594 - INFO - Created folder: C:\Users\DC\Downloads\Videos
+2025-05-28 20:37:00,594 - INFO - Created folder: C:\Users\DC\Downloads\Audio
+2025-05-28 20:37:00,594 - INFO - Created folder: C:\Users\DC\Downloads\Archives
+2025-05-28 20:37:00,595 - INFO - Created folder: C:\Users\DC\Downloads\Others
+2025-05-28 20:37:00,595 - INFO - Moved file: 01 (1).jpg -> C:\Users\DC\Downloads\Images\01 (1).jpg
+2025-05-28 20:37:00,596 - INFO - Moved file: 01.jpg -> C:\Users\DC\Downloads\Images\01.jpg
+2025-05-28 20:37:00,596 - INFO - Moved file: 02.jpg -> C:\Users\DC\Downloads\Images\02.jpg
+2025-05-28 20:37:00,597 - INFO - Moved file: 04.jpg -> C:\Users\DC\Downloads\Images\04.jpg
+2025-05-28 20:37:00,599 - INFO - Moved file: 05 (1).jpg -> C:\Users\DC\Downloads\Images\05 (1).jpg
+2025-05-28 20:37:00,600 - INFO - Moved file: 05.jpg -> C:\Users\DC\Downloads\Images\05.jpg
+2025-05-28 20:37:00,600 - INFO - Moved file: 06.jpg -> C:\Users\DC\Downloads\Images\06.jpg
+2025-05-28 20:37:00,601 - INFO - Moved file: 20_Apr.zip -> C:\Users\DC\Downloads\Archives\20_Apr.zip
+2025-05-28 20:37:00,601 - INFO - Moved file: 4ukey_11748231171270861901.exe -> C:\Users\DC\Downloads\Others\4ukey_11748231171270861901.exe
+2025-05-28 20:37:00,601 - INFO - Moved file: 6-May.zip -> C:\Users\DC\Downloads\Archives\6-May.zip
+2025-05-28 20:37:00,602 - INFO - Moved file: 7_may.zip -> C:\Users\DC\Downloads\Archives\7_may.zip
+2025-05-28 20:37:00,602 - INFO - Skipped folder: 8_9_May
+2025-05-28 20:37:00,602 - INFO - Moved file: 8_9_May.zip -> C:\Users\DC\Downloads\Archives\8_9_May.zip
+2025-05-28 20:37:00,607 - INFO - Moved file: 9781509302963_Microsoft Azure Essentials Fundamentals of Azure 2nd ed mobile.pdf -> C:\Users\DC\Downloads\Documents\9781509302963_Microsoft Azure Essentials Fundamentals of Azure 2nd ed mobile.pdf
+2025-05-28 20:37:00,607 - INFO - Moved file: android-unlock_11748231727090877701.exe -> C:\Users\DC\Downloads\Others\android-unlock_11748231727090877701.exe
+2025-05-28 20:37:00,608 - INFO - Skipped folder: archive
+2025-05-28 20:37:00,608 - INFO - Skipped folder: archive (1)
+2025-05-28 20:37:00,608 - INFO - Moved file: archive (1).zip -> C:\Users\DC\Downloads\Archives\archive (1).zip
+2025-05-28 20:37:00,608 - INFO - Skipped folder: archive (2)
+2025-05-28 20:37:00,609 - INFO - Moved file: archive (2).zip -> C:\Users\DC\Downloads\Archives\archive (2).zip
+2025-05-28 20:37:00,609 - INFO - Moved file: archive.zip -> C:\Users\DC\Downloads\Archives\archive.zip
+2025-05-28 20:37:00,610 - INFO - Moved file: AZ-900 exam self-serve guide.pdf -> C:\Users\DC\Downloads\Documents\AZ-900 exam self-serve guide.pdf
+2025-05-28 20:37:00,611 - INFO - Skipped folder: Compressed
+2025-05-28 20:37:00,611 - INFO - Moved file: DeepSkin_A_Deep_Learning_Approach_for_Skin_Cancer_Classification.pdf -> C:\Users\DC\Downloads\Documents\DeepSkin_A_Deep_Learning_Approach_for_Skin_Cancer_Classification.pdf
+2025-05-28 20:37:00,611 - INFO - Moved file: desktop.ini -> C:\Users\DC\Downloads\Others\desktop.ini
+2025-05-28 20:37:00,612 - INFO - Moved file: Do the impossible and you値l never doubt yourself ever again. (1).png -> C:\Users\DC\Downloads\Images\Do the impossible and you値l never doubt yourself ever again. (1).png
+2025-05-28 20:37:00,612 - INFO - Moved file: Do the impossible and you値l never doubt yourself ever again..png -> C:\Users\DC\Downloads\Images\Do the impossible and you値l never doubt yourself ever again..png
+2025-05-28 20:37:00,613 - INFO - Moved file: Doc 23-05-2025.pdf -> C:\Users\DC\Downloads\Documents\Doc 23-05-2025.pdf
+2025-05-28 20:37:00,613 - INFO - Moved file: drfone_setup_full3360.exe -> C:\Users\DC\Downloads\Others\drfone_setup_full3360.exe
+2025-05-28 20:37:00,614 - INFO - Moved file: Emergency.2025.1080p.WEB-DL.HIN.DD5.1.x264.mkv -> C:\Users\DC\Downloads\Videos\Emergency.2025.1080p.WEB-DL.HIN.DD5.1.x264.mkv
+2025-05-28 20:37:00,615 - INFO - Moved file: encrypted_file -> C:\Users\DC\Downloads\Others\encrypted_file
+2025-05-28 20:37:00,616 - INFO - Moved file: Energy_Efficient_Routing_in_Border_Surveillance_WSNs.pdf -> C:\Users\DC\Downloads\Documents\Energy_Efficient_Routing_in_Border_Surveillance_WSNs.pdf
+2025-05-28 20:37:00,616 - INFO - Moved file: filtered_sales_data.csv -> C:\Users\DC\Downloads\Others\filtered_sales_data.csv
+2025-05-28 20:37:00,616 - INFO - Moved file: Git-2.49.0-64-bit.exe -> C:\Users\DC\Downloads\Others\Git-2.49.0-64-bit.exe
+2025-05-28 20:37:00,617 - INFO - Moved file: Hello.pdf -> C:\Users\DC\Downloads\Documents\Hello.pdf
+2025-05-28 20:37:00,617 - INFO - Moved file: idman642build36 (1).exe -> C:\Users\DC\Downloads\Others\idman642build36 (1).exe
+2025-05-28 20:37:00,618 - INFO - Moved file: idman642build36.exe -> C:\Users\DC\Downloads\Others\idman642build36.exe
+2025-05-28 20:37:00,618 - INFO - Moved file: IEEE Xplore Reference Download 2025.5.28.20.21.31.txt -> C:\Users\DC\Downloads\Documents\IEEE Xplore Reference Download 2025.5.28.20.21.31.txt
+2025-05-28 20:37:00,618 - INFO - Moved file: IMG_2885.JPG -> C:\Users\DC\Downloads\Images\IMG_2885.JPG
+2025-05-28 20:37:00,619 - INFO - Moved file: imyfone-lockwiper-android_setup-com_android.exe -> C:\Users\DC\Downloads\Others\imyfone-lockwiper-android_setup-com_android.exe
+2025-05-28 20:37:00,619 - INFO - Moved file: Jaat.2025.1080p.Hindi.WEB-DL.5.1.x264.mkv -> C:\Users\DC\Downloads\Videos\Jaat.2025.1080p.Hindi.WEB-DL.5.1.x264.mkv
+2025-05-28 20:37:00,620 - INFO - Moved file: Khushboo_Didi_Engagement.zip -> C:\Users\DC\Downloads\Archives\Khushboo_Didi_Engagement.zip
+2025-05-28 20:37:00,620 - INFO - Moved file: merged (1).pdf -> C:\Users\DC\Downloads\Documents\merged (1).pdf
+2025-05-28 20:37:00,620 - INFO - Moved file: merged (2).pdf -> C:\Users\DC\Downloads\Documents\merged (2).pdf
+2025-05-28 20:37:00,621 - INFO - Moved file: merged.pdf -> C:\Users\DC\Downloads\Documents\merged.pdf
+2025-05-28 20:37:00,621 - INFO - Moved file: Microsoft.Management.Deployment.winmd -> C:\Users\DC\Downloads\Others\Microsoft.Management.Deployment.winmd
+2025-05-28 20:37:00,621 - INFO - Skipped folder: MicrosoftWindows.Client.CBS_cw5n1h2txyewy!InputApp
+2025-05-28 20:37:00,622 - INFO - Skipped folder: Music
+2025-05-28 20:37:00,622 - INFO - Moved file: output.docx -> C:\Users\DC\Downloads\Documents\output.docx
+2025-05-28 20:37:00,622 - INFO - Moved file: output.mp3 -> C:\Users\DC\Downloads\Audio\output.mp3
+2025-05-28 20:37:00,623 - INFO - Moved file: painted-concrete-background.jpg -> C:\Users\DC\Downloads\Images\painted-concrete-background.jpg
+2025-05-28 20:37:00,623 - INFO - Skipped folder: Photos-1-001
+2025-05-28 20:37:00,623 - INFO - Skipped folder: Photos-1-001 (1)
+2025-05-28 20:37:00,624 - INFO - Moved file: Photos-1-001 (1).zip -> C:\Users\DC\Downloads\Archives\Photos-1-001 (1).zip
+2025-05-28 20:37:00,624 - INFO - Moved file: Photos-1-001.zip -> C:\Users\DC\Downloads\Archives\Photos-1-001.zip
+2025-05-28 20:37:00,624 - INFO - Skipped folder: Programs
+2025-05-28 20:37:00,625 - INFO - Moved file: PythonStreamlit-main.zip -> C:\Users\DC\Downloads\Archives\PythonStreamlit-main.zip
+2025-05-28 20:37:00,625 - INFO - Moved file: pytorch_tutorial.docx -> C:\Users\DC\Downloads\Documents\pytorch_tutorial.docx
+2025-05-28 20:37:00,625 - INFO - Moved file: Tenorshare Android Phone Unlocker Installer.exe -> C:\Users\DC\Downloads\Others\Tenorshare Android Phone Unlocker Installer.exe
+2025-05-28 20:37:00,625 - INFO - Skipped folder: Video
+2025-05-28 20:37:00,626 - INFO - Moved file: WhatsApp Image 2025-05-16 at 11.54.40 AM.jpeg -> C:\Users\DC\Downloads\Images\WhatsApp Image 2025-05-16 at 11.54.40 AM.jpeg
+2025-05-28 20:37:00,626 - INFO - Moved file: WhatsApp Image 2025-05-18 at 9.59.57 AM.jpeg -> C:\Users\DC\Downloads\Images\WhatsApp Image 2025-05-18 at 9.59.57 AM.jpeg
+2025-05-28 20:37:00,627 - INFO - Moved file: WhatsApp Image 2025-05-20 at 3.53.17 PM.jpeg -> C:\Users\DC\Downloads\Images\WhatsApp Image 2025-05-20 at 3.53.17 PM.jpeg
+2025-05-28 20:37:00,627 - INFO - Moved file: WhatsApp Installer.exe -> C:\Users\DC\Downloads\Others\WhatsApp Installer.exe
+2025-05-28 20:37:00,627 - INFO - Moved file: wondershare-dr-fone-for-android-8-0-3.exe -> C:\Users\DC\Downloads\Others\wondershare-dr-fone-for-android-8-0-3.exe
+2025-05-28 20:37:00,628 - INFO - Moved file: _Getintopc.com_Wondershare_Dr.Fone_toolkit_for_iOS_and_Android_10.7.2.324.rar -> C:\Users\DC\Downloads\Archives\_Getintopc.com_Wondershare_Dr.Fone_toolkit_for_iOS_and_Android_10.7.2.324.rar

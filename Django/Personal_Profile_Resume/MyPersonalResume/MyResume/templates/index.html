@@ -1,0 +1,530 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="bg-gray-800 text-white fixed top-0 left-0 w-full z-50 shadow-md margin-bottom-16">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="text-lg font-bold"> Navneet Purohit Profile</div>
+            <ul class="flex space-x-6">
+                <li><a href="#technology" class="hover:text-gray-400">Technology Known</a></li>
+                <li><a href="#projects" class="hover:text-gray-400">Personal Projects</a></li>
+                <li><a href="#photographs" class="hover:text-gray-400">Photographs</a></li>
+                <li><a href="#social" class="hover:text-gray-400">Social Profiles</a></li>
+                <li><a href="#education" class="hover:text-gray-400">Education</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="bg-gray-100 py-8 mt-16">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Name: Navneet Purohit</h1>
+            <h2 class="text-2xl font-semibold">Contact: +91-8982491539</h2>
+            <h2 class="text-2xl font-semibold">Location: Indore, Madhya Pradesh, India</h2>
+
+        </div>
+    </section>
+    <section id="photographs" class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4 text-blue-500 text-center">Photographs</h2>
+        <div id="carouselExample" class="carousel slide relative shadow-2xl bg-white" data-bs-ride="carousel">
+            <div class="carousel-inner relative overflow-hidden w-full">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="{% static 'myphoto.jpg' %}" class="block w-full"
+                        style="max-width: 600px; max-height: 700px; margin: auto;" alt="Photograph 1">
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="{% static 'myphoto.jpg' %}" class="block w-full"
+                        style="max-width: 600px; max-height: 700px; margin: auto;" alt="Photograph 2">
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="{% static 'myphoto.jpg' %}" class="block w-full"
+                        style="max-width: 600px; max-height:700px; margin: auto;" alt="Photograph 3">
+                </div>
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <img src="{% static 'myphoto.jpg' %}" class="block w-full"
+                        style="max-width: 600px; max-height: 700px; margin: auto;" alt="Photograph 4">
+                </div>
+            </div>
+            <!-- Controls -->
+            <button
+                class="carousel-control-prev absolute top-0 bottom-0 left-0 z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none"
+                type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next absolute top-0 bottom-0 right-0 z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none"
+                type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+        </button>
+        </div>
+    </section>
+
+    <br><hr>
+
+
+    <section id="technology" class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4 text-center text-blue-500">Technology Known</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-semibold mb-2">Languages</h3>
+                <ul class="list-disc list-inside">
+                    <li><strong>Python:</strong> Proficient in scripting, automation, and web development using
+                        frameworks like Django, Flask, and FastAPI.</li>
+                    <li><strong>SQL:</strong> Skilled in database design, querying, and optimization for relational
+                        databases like MySQL and PostgreSQL.</li>
+                    <li><strong>C/C++:</strong> Experienced in system-level programming, data structures, and algorithms
+                        for performance-critical applications.</li>
+                    <li><strong>MongoDB:</strong> Expertise in NoSQL database management, schema design, and handling
+                        large-scale unstructured data.</li>
+                </ul>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-4">
+                <h3 class="text-lg font-semibold mb-2">Technologies & Tools</h3>
+                <ul class="list-disc list-inside">
+                    <li><strong>Web Frameworks:</strong> Streamlit, Django, Flask, Fast API</li>
+                    <li><strong>Version Control:</strong> GitHub, SourceTree</li>
+                    <li><strong>Project Management:</strong> Jira, Scrum, Kanban</li>
+                    <li><strong>Data Visualization:</strong> Tableau, Matplotlib, Seaborn, Plotly</li>
+                    <li><strong>Data Analysis:</strong> Pandas, NumPy, Excel</li>
+                    <li><strong>Web Development:</strong> Jinja2, Bootstrap, Tailwind CSS</li>
+                    <li><strong>API Integration:</strong> Requests</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="projects" class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4 text-blue-500">Work Experience</h2>
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold">Core Bridge Financial (CRBG) <span class="text-gray-500">July'24 –
+                    Jan’25</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Led the design and development of a Python SOP Framework to automate key operational tasks including
+                    report generation, data validation, data cleanup, data visualization, and system monitoring.</li>
+                <li>Automated repetitive processes, significantly reducing manual effort by 60% through intelligent
+                    scripting and task orchestration using SOP Framework.</li>
+                <li>Reduced MS Orchestrator batch cycle time by 25% by implementing automated validation and enabling
+                    parallel job execution, improving system efficiency and throughput.</li>
+                <li>Integrated TCS Ignio within the BFSI infrastructure to standardize batch processing oversight,
+                    reducing manual efforts by 30% through automated validation of failures and recommendation of
+                    corrective actions.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">American International Group (AIG) <span class="text-gray-500">Aug'21 –
+                    June’24</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Developed and enhanced RTEE (Rapid Test Execution Engine) to automate RFB check validations and
+                    monitor performance of 180+ complex webpages, reducing manual effort by 40% and enabling timely
+                    detection of critical failures.</li>
+                <li>Created and deployed a Generic Framework to validate cycle status and send batch status updates
+                    every 15 minutes, enabling real-time tracking and reducing manual effort by 10%.</li>
+            </ul>
+        </div>
+        <br>
+
+
+    </section>
+
+    <section id="personal-projects" class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4 text-blue-500">Personal Projects</h2>
+        <div class="mb-8"></div>
+        <h3 class="text-xl font-semibold">Sales Data Analysis Dashboard <span class="text-gray-500">Streamlit, Pandas,
+                Seaborn, Matplotlib</span></h3>
+        <ul class="list-disc list-inside">
+            <li>Developed an interactive dashboard with CSV upload and dynamic filters using Streamlit to analyze sales
+                data and key metrics.</li>
+            <li>Leveraged Pandas for data processing and used Seaborn/Matplotlib to visualize trends, top-performing
+                products, and customer segments for actionable business insights.</li>
+        </ul>
+
+        </div>
+        <br>
+        <hr>
+
+        <div>
+            <h3 class="text-xl font-semibold">Personal Finance Tracker <span class="text-gray-500">Streamlit, Pandas,
+                    NumPy, Seaborn, Matplotlib</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Built a dynamic web app in Streamlit to track income, expenses, and savings through interactive
+                    visual dashboards.</li>
+                <li>Utilized Pandas and NumPy for data cleaning, aggregation, and monthly budget analysis, and
+                    implemented Seaborn-based visualizations for tracking expense trends and category-wise spending.
+                </li>
+                <li>Enabled CSV upload and real-time insights to support personal financial decision-making.</li>
+            </ul>
+        </div>
+        <div></div>
+
+        <br>
+        <hr>
+
+        <h3 class="text-xl font-semibold">Gym Management System <span class="text-gray-500">Python, Django</span></h3>
+        <ul class="list-disc list-inside">
+            <li>Manages gym memberships, class schedules, payments, and trainer assignments.</li>
+            <li>Automates billing and attendance tracking, streamlining member check-ins and reducing administrative
+                workload.</li>
+        </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Personal Blog <span class="text-gray-500">Python, Django</span></h3>
+            <ul class="list-disc list-inside">
+                <li>A dynamic blog platform for publishing articles with user comments.</li>
+                <li>Simplifies content creation and updates, automating comment moderation and SEO-friendly publishing.
+                </li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Personal Profile Resume <span class="text-gray-500">HTML, CSS,
+                    JavaScript</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Interactive digital resume/CV with real-time updates.</li>
+                <li>One-click deployment for instant sharing and centralized updates to avoid manual file edits.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Alarm Clock <span class="text-gray-500">Python, Tkinter</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Customizable alarm with snooze, reminders, and GUI.</li>
+                <li>Replaces physical devices with automated daily scheduling and integrates with system notifications.
+                </li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">BMI Calculator <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Computes Body Mass Index with health category suggestions.</li>
+                <li>Instant health metric calculation and tracks historical data for progress monitoring.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Calculator <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Scientific calculator supporting arithmetic, trigonometry, and logarithms.</li>
+                <li>Replaces manual/complex calculations and handles batch operations efficiently.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Email Sender <span class="text-gray-500">Python, SMTP</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Automated email dispatcher with attachments and bulk-send support.</li>
+                <li>Sends personalized emails to multiple recipients in one click and integrates scheduling for timed
+                    deliveries.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Expense Tracker <span class="text-gray-500">Python, Streamlit</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Logs daily expenses, categorizes spending, and generates reports.</li>
+                <li>Auto-categorizes transactions and creates visual budgets without spreadsheet setup.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">File Encryption Tool <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Encrypts/decrypts files using AES or similar algorithms.</li>
+                <li>Secures sensitive data in seconds and batch processes multiple files.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">File Organizer <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Sorts files by type (e.g., images, docs) into folders.</li>
+                <li>Cleans cluttered directories in one run and runs scheduled cleanup automatically.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Password Generator <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Creates strong, customizable passwords.</li>
+                <li>Generates unique passwords instantly and reduces security risks from weak passwords.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">PDF Merger <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Combines multiple PDFs into a single file.</li>
+                <li>Merges reports/papers without manual tools and processes hundreds of pages in seconds.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">PDF to Word <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Converts PDFs to editable Word documents.</li>
+                <li>Avoids manual retyping of content and preserves formatting during conversion.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Plagiarism Checker <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Compares text against online sources to detect duplication.</li>
+                <li>Scans documents in seconds vs. manual checks and highlights matches for quick review.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Pomodoro Timer <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Productivity timer with work/break intervals and stats tracking.</li>
+                <li>Enforces focused work sessions and automatically logs productivity metrics.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Pytube <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Downloads YouTube videos/playlists in multiple resolutions.</li>
+                <li>Batch downloads entire playlists without browser/ads overhead.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">QR Code Generator <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Creates QR codes for URLs, contact info, or Wi-Fi credentials.</li>
+                <li>Generates shareable codes in one click and customizes designs for branding.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Quiz Game <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Interactive quiz with scoring, timers, and multiple categories.</li>
+                <li>Auto-grades responses instantly and is reusable for training/education.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Text to Speech <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Converts text into spoken audio with adjustable speed/voice.</li>
+                <li>Creates audiobooks from documents and assists accessibility for visually impaired users.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">To-Do List <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Task manager with priorities, deadlines, and reminders.</li>
+                <li>Syncs tasks across devices and sends automated deadline alerts.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Banking System <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Simulates banking operations (accounts, transfers, loans).</li>
+                <li>Automates transaction history generation and validates data to reduce errors.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">E-Commerce Platform <span class="text-gray-500">Python, Django</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Online store with product listings, cart, and payments.</li>
+                <li>Inventory auto-updates after sales and generates sales analytics reports.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Hospital Management System <span class="text-gray-500">Python,
+                    Django</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Manages patient records, appointments, and billing.</li>
+                <li>Digital records replace paper files and auto-schedules follow-ups.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Library Management System <span class="text-gray-500">Python, OOP</span>
+            </h3>
+            <ul class="list-disc list-inside">
+                <li>Tracks books, loans, and members using OOP principles.</li>
+                <li>Auto-calculates late fees and searches inventory in milliseconds.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Simple RPG Game <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Text-based RPG with character progression and quests.</li>
+                <li>Procedurally generates content and saves/loads game states instantly.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Social Media Platform <span class="text-gray-500">Python, Django</span>
+            </h3>
+            <ul class="list-disc list-inside">
+                <li>Mini-social network with posts, likes, and profiles.</li>
+                <li>Push notifications for engagement and moderation tools filter content.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Student Management System <span class="text-gray-500">Python,
+                    Django</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Tracks student grades, attendance, and courses.</li>
+                <li>Generates report cards automatically and identifies at-risk students via analytics.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">ChatGPT API Integration <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Integrates OpenAI's GPT for chat-based applications.</li>
+                <li>Automates customer service responses and generates content drafts in seconds.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Finance Forecasting <span class="text-gray-500">Python, ML</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Predicts stock trends using historical data and ML.</li>
+                <li>Replaces manual technical analysis and backtests strategies rapidly.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">PDF Extractor <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Pulls text/tables from PDFs into spreadsheets.</li>
+                <li>Converts scanned docs to editable text and extracts data from reports for analysis.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Personal Finance Tracker <span class="text-gray-500">Python,
+                    Streamlit</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Aggregates spending, investments, and savings goals.</li>
+                <li>Syncs with bank APIs for real-time updates and forecasts cash flow automatically.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">Sales Data Analysis <span class="text-gray-500">Python, Pandas</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Analyzes sales datasets to identify trends and KPIs.</li>
+                <li>Generates visual dashboards from raw data and automates monthly sales reports.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">CRUD Operations with FastAPI <span class="text-gray-500">Python, FastAPI,
+                    MongoDB</span></h3>
+            <ul class="list-disc list-inside">
+                <li>REST API backend with Create, Read, Update, Delete endpoints.</li>
+                <li>Scaffolds APIs for any dataset and integrates authentication/validation.</li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h3 class="text-xl font-semibold">SQL Connect Utility <span class="text-gray-500">Python</span></h3>
+            <ul class="list-disc list-inside">
+                <li>Python utility to query SQL databases.</li>
+                <li>Runs parameterized queries programmatically and exports results to CSV/Excel automatically.</li>
+            </ul>
+        </div>
+
+        
+        <section id="social" class="container mx-auto my-8">
+            <h4 class="text-2xl font-bold mb-4 text-blue-500">Social Profiles</h4>
+            <ul class="list-disc list-inside">
+                <li><strong>Email:</strong> Navnetpurohit1998@gmail.com</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/navneet-purohit-305416149/"
+                        class="text-blue-500 hover:underline">Navneet Purohit</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/navneetpurohitt"
+                        class="text-blue-500 hover:underline">navneetpurohit</a></li>
+            </ul>
+        </section>
+
+        <section id="education" class="container mx-auto my-8">
+            <h2 class="text-2xl font-bold mb-4 text-blue-500">Education</h2>
+            <div>
+                <h3 class="text-xl font-semibold">Sagar Institute of Science and Technology, RGPV Bhopal, India <span
+                        class="text-gray-500">July’17 - May’21</span></h3>
+                <ul class="list-disc list-inside">
+                    <li>Bachelor of Technology (B. Tech) in Computer Science Engineering | CGPA: 8.85/10</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="bg-gray-800 text-white text-center py-4">
+            <p>&copy; 2025 My Resume. All rights reserved.</p>
+        </footer>
+
+
+
+
+
+
+</body>
+
+</html>

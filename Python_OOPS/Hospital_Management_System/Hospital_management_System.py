@@ -38,7 +38,7 @@ class Hospital:
 
     def add_patient(self, patient):
         self.patients.append(patient)
-        print(f"Patient {patient.name} added successfully.")
+        print(f"Patient {patient.patientname} added successfully.")
 
     def add_doctor(self, doctor):
         self.doctors.append(doctor)

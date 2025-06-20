@@ -57,6 +57,7 @@ def main():
             author = input("Enter book author: ")
             copies = int(input("Enter number of copies: "))
             library.add_book(title, author, copies)
+            
         elif choice == "2":
             library.display_books()
         elif choice == "3":

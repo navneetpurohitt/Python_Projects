@@ -22,15 +22,15 @@ import matplotlib.pyplot as plt
 #     QTR_ID, MONTH_ID, YEAR_ID, PRODUCTLINE, MSRP, PRODUCTCODE, CUSTOMERNAME, PHONE, 
 #     ADDRESSLINE1, ADDRESSLINE2, CITY, STATE, POSTALCODE, COUNTRY, TERRITORY, 
 #     CONTACTLASTNAME, CONTACTFIRSTNAME, DEALSIZE.
-Usage:
-1. Run the script in a Streamlit environment.
-2. Upload a CSV file containing sales data.
-3. Apply filters using the sidebar.
-4. View metrics and charts in the main dashboard.
-5. Export filtered data as a CSV file if needed.
-Note:
-Ensure the uploaded CSV file is encoded in 'latin1' and contains the required columns.
-"""
+# Usage:
+# 1. Run the script in a Streamlit environment.
+# 2. Upload a CSV file containing sales data.
+# 3. Apply filters using the sidebar.
+# 4. View metrics and charts in the main dashboard.
+# 5. Export filtered data as a CSV file if needed.
+# Note:
+# Ensure the uploaded CSV file is encoded in 'latin1' and contains the required columns.
+# """
 # """
 # Sales Data Analysis Dashboard
 # This script provides an interactive dashboard for analyzing sales data using Streamlit. 

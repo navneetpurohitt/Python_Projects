@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#0000FF"  # Lines as blue
+backgroundColor = "white"  # Background as white
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "blue"  # Text as black
+font = "monospace"  # Font as monospace

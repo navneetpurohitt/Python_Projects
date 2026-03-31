@@ -1,0 +1,17 @@
+[theme]
+primaryColor = "#0000FF"  # Lines as blue
+backgroundColor = "grey"  # Background as white
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "black"  # Text as black
+font = "verdana"  # Font as monospace
+fontSize = "15px"
+
+# Additional fields
+borderColor = "black"  # Border color
+borderWidth = "3px"  # Border width
+buttonColor = "#00FF00"  # Button color
+buttonTextColor = "#FFFFFF"  # Button text color
+#headerColor = "#FFA500"  # Header color
+footerColor = "#808080"  # Footer color
+linkColor = "#0000FF"  # Hyperlink color
+hoverColor = "#FFD700"  # Hover effect color

@@ -1,0 +1,35 @@
+﻿Date,Category,Money,Item Name,Price
+28-May-25,Education,Debit,Thesis,25000
+29-May-25,Tax,Debit,Income Tax,30000
+30-May-25,Mobile,Debit,Charger Pin,700
+31-May-25,Food,Debit,Groceries,1500
+01-Jun-25,Transport,Debit,Bus Ticket,50
+02-Jun-25,Entertainment,Debit,Movie Ticket,300
+03-Jun-25,Health,Debit,Medicine,200
+04-Jun-25,Education,Debit,Online Course,5000
+05-Jun-25,Tax,Debit,Property Tax,12000
+06-Jun-25,Mobile,Debit,Phone Case,800
+07-Jun-25,Food,Debit,Restaurant Bill,2000
+08-Jun-25,Transport,Debit,Train Ticket,100
+09-Jun-25,Entertainment,Debit,Concert Ticket,1500
+10-Jun-25,Health,Debit,Doctor's Appointment,600
+11-Jun-25,Education,Debit,Books,1200
+12-Jun-25,Tax,Debit,Sales Tax,4000
+13-Jun-25,Mobile,Debit,Headphones,1500
+14-Jun-25,Food,Debit,Takeout,800
+15-Jun-25,Transport,Debit,Taxi Fare,200
+16-Jun-25,Entertainment,Debit,Streaming Subscription,1000
+17-Jun-25,Health,Debit,Gym Membership,2500
+18-Jun-25,Education,Debit,Workshop,3000
+19-Jun-25,Tax,Debit,Capital Gains Tax,5000
+20-Jun-25,Mobile,Debit,Smartphone,30000
+21-Jun-25,Food,Debit,Coffee,150
+22-Jun-25,Transport,Debit,Gasoline,2000
+23-Jun-25,Entertainment,Debit,Video Game,4000
+24-Jun-25,Health,Debit,Health Insurance,5000
+25-Jun-25,Education,Debit,Seminar,2000
+26-Jun-25,Tax,Debit,Property Tax,12000
+27-Jun-25,Mobile,Debit,Tablet,25000
+30-Apr-25,Salary,Credit,Salary,60000
+30-May-25,Salary,Credit,Salary,60000
+30-Jun-25,Salary,Credit,Salary,60000
